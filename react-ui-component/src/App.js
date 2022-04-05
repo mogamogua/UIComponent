@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Slider from "./components/slider";
 import Main from "./pages/Main";
 import {GlobalStyle} from "./styles/globalStyles";
+import "./fonts/font.css";
+
 function App() {
   return (
     <div className="App">
