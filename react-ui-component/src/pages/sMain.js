@@ -35,7 +35,7 @@ export const NavList = styled.ul`
 
 export const NavItem = styled.li`
   font-family: "YesevaOne";
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 400;
   letter-spacing: -0.03em;
   text-align: center;
@@ -47,7 +47,7 @@ export const NavItem = styled.li`
 // `;
 
 export const ImgWrapper = styled.figure`
-  margin: 19rem auto;
+  margin: 14rem auto;
   text-align: center;
   border-radius: 0.1rem;
   position: relative;
@@ -60,13 +60,13 @@ export const ImgWrapper = styled.figure`
 
 export const WhiteBox = styled.figure`
   border: solid 1px white;
-  width: 72rem;
+  width: 66rem;
   height: 57rem;
   left: 280px;
 
   position: absolute;
-  top: 22rem;
-  left: calc(50% - 360px);
+  top: 24rem;
+  left: calc(50% - 330px);
   z-index: -1;
   padding: 44rem 0 0 0;
 
@@ -85,4 +85,17 @@ export const WhiteBox = styled.figure`
 
 export const DelLine = styled.del`
   color: ${colors.mainOrange};
+  position: relative;
 `; 
+
+export const SuperScripted = styled.sup`
+  font-family: "YellowTail-Regular";
+  font-style: italic;
+  font-size: 2.8rem;
+  letter-spacing: 0.02em;
+  color: ${colors.mainOrange};
+
+  position: absolute;
+  right: -39px;
+  top: -26px;
+`;

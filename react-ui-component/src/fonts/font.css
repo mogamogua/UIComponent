@@ -14,3 +14,11 @@
     url("./YesevaOne-Regular.woff") format("woff"),
     url("./YesevaOne-Regular.ttf") format("trueType");
 }
+
+@font-face {
+  font-family: "YellowTail-Regular";
+  font-display: fallback;
+  src: local("Yellowtail-Regular"), url("./Yellowtail-Regular.woff2") format("woff2"),
+    url("./Yellowtail-Regular.woff") format("woff"),
+    url("./YesevaOne-Regular.ttf") format("trueType");
+}

@@ -1,14 +1,14 @@
 import React from 'react';
 import { ReactComponent as LogoIcon } from '../assets/icons/LogoIcon.svg';
-import { Background, DelLine, Header, ImgWrapper, Nav, NavItem, NavList, WhiteBox } from './sMain';
+import { Background, DelLine, Header, ImgWrapper, Nav, NavItem, NavList, SuperScripted, WhiteBox } from './sMain';
 import cookies from "../assets/images/cookies.png";
-import {colors} from "../styles/colors";
+import {Link} from "react-router-dom";
 
 function Main() {
   return (
     <Background>
       <Header>
-        <LogoIcon />
+        <Link to="/"><LogoIcon /></Link>
       </Header>
       <Nav>
         <NavList>
@@ -21,7 +21,7 @@ function Main() {
       <main>
         <ImgWrapper>
           <WhiteBox>
-            <p>What kinds of <DelLine><span>cookies</span></DelLine></p>
+            <p>What kinds of <DelLine><span>cookies</span><SuperScripted>component</SuperScripted></DelLine></p>
             <p>do you want to make?</p></WhiteBox>
           <img src={cookies} alt="mainImg" />
         </ImgWrapper>
